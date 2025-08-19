@@ -31,4 +31,5 @@ const hootSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const hoot = mongoose.model('Hoot', hootSchema)
+const Hoot = mongoose.model('Hoot', hootSchema)
+module.exports = Hoot
